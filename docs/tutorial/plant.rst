@@ -1,6 +1,20 @@
 被控对象模型
 -------------
 
+被控对象为简单的一维质量块模型，如 :eq:`eq_plant` 。
+
+.. math::
+    :label: eq_plant
+    
+    \left[ \begin{array}{c}
+    \dot{x}\\
+    \dot{v}\\
+    \end{array} \right] =
+    \left[ \begin{array}{c}
+    v\\
+    \frac{F}{m}\\
+    \end{array} \right] 
+
 .. code-block:: C
     :linenos:
 

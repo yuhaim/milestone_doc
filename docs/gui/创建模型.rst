@@ -1,2 +1,32 @@
 新建模型并生成模板
-=================
+===================
+
+.. figure:: interface_definition.png
+    :scale: 60%
+
+    模型接口定义
+
+.. figure:: scheduled_tasks.png
+    :scale: 60%
+
+    定时任务定义
+
+.. figure:: external_resources.png
+    :scale: 60%
+
+    外部资源定义
+
+.. figure:: code_generation.png
+    :scale: 60%
+
+    代码模板生成
+
+.. figure:: code_template.png
+    :scale: 60%
+
+    调用编辑器填写代码模板
+
+.. figure:: mastersim_table_connection.png
+    :scale: 60%
+
+    在MasterSim中进行接口连接

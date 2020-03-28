@@ -1,6 +1,13 @@
 控制器模型
 ---------------
 
+控制器模型为PD测速反馈控制器，如 :eq:`eq_controller` 。
+
+.. math::
+    :label: eq_controller
+
+    F=k_p\left( r_x-x \right) -k_dv
+
 .. code-block:: C
     :linenos:
 

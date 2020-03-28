@@ -7,8 +7,8 @@ Milestone文档
 ##############
 
 .. toctree::
-   :maxdepth: 4
-   :numbered: 4
+   :maxdepth: 6
+   :numbered: 6
    
    intro/index
    install/index

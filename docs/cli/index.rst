@@ -8,3 +8,20 @@
 在顶层CMakeLists.txt中"foreach (MODEL_NAME controller plant plant_1) # add model to this list"语句处，将新的模型添加在列表中
 重新执行上述构建操作，系统将执行增量构建
 
+构建模型
+========
+
+.. figure:: cmake_make.png
+    :scale: 60%
+
+    创建shadow build目录，生成构建工程（Windows）
+
+.. figure:: cmake_build.png
+    :scale: 60%
+
+    通过CMake执行编译及后处理
+
+.. figure:: package_test.png
+    :scale: 60%
+
+    FMU的自动打包和测试

@@ -13,7 +13,32 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
+numfig = True
+math_number_all = True
+math_numfig = True
+numfig_secnum_depth = 1
+math_eqref_format = "Eq.{number}"
 
+latex_engine = 'xelatex'
+latex_elements = {
+    'fontpkg': r'''
+\setmainfont{DejaVu Serif}
+\setsansfont{DejaVu Sans}
+\setmonofont{DejaVu Sans Mono}
+''',
+    'preamble': r'''
+\usepackage[titles]{tocloft}
+\cftsetpnumwidth {1.25cm}\cftsetrmarg{1.5cm}
+\setlength{\cftchapnumwidth}{0.75cm}
+\setlength{\cftsecindent}{\cftchapnumwidth}
+\setlength{\cftsecnumwidth}{1.25cm}
+\usepackage{indentfirst}
+\setlength{\parindent}{2em}
+''',
+    'fncychap': r'\usepackage[Bjornstrup]{fncychap}',
+    'printindex': r'\footnotesize\raggedright\printindex',
+}
+latex_show_urls = 'footnote'
 
 # -- Project information -----------------------------------------------------
 
@@ -22,7 +47,7 @@ copyright = '2020, MA Yuhai'
 author = 'MA Yuhai'
 
 # The full version, including alpha/beta/rc tags
-release = '1.0'
+release = '1.0.0'
 
 
 # -- General configuration ---------------------------------------------------
