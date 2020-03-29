@@ -1,12 +1,13 @@
 控制器模型
 ---------------
 
-控制器模型为PD测速反馈控制器，如 :eq:`eq_controller` 。
+为实现 :eq:`eq_controller` 中描述的控制器数学模型并与被控对象模型相连接，分解后的控制器原理框图如 :numref:`fig_sys_controller` 。
 
-.. math::
-    :label: eq_controller
+.. _fig_sys_controller:
+.. figure:: sys_controller.png
+    :scale: 75%
 
-    F=k_p\left( r_x-x \right) -k_dv
+    控制器原理框图
 
 .. code-block:: C
     :linenos:

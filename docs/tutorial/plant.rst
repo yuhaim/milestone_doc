@@ -1,19 +1,13 @@
 被控对象模型
 -------------
 
-被控对象为简单的一维质量块模型，如 :eq:`eq_plant` 。
+为实现 :eq:`eq_plant` 中描述的被控对象模型并与控制器数学模型相连接，分解后的被控对象原理框图如 :numref:`fig_sys_plant` 。
 
-.. math::
-    :label: eq_plant
-    
-    \left[ \begin{array}{c}
-    \dot{x}\\
-    \dot{v}\\
-    \end{array} \right] =
-    \left[ \begin{array}{c}
-    v\\
-    \frac{F}{m}\\
-    \end{array} \right] 
+.. _fig_sys_plant:
+.. figure:: sys_plant.png
+    :scale: 75%
+
+    被控对象原理框图
 
 .. code-block:: C
     :linenos:

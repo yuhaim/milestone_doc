@@ -1,32 +1,7 @@
 新建模型并生成模板
 ===================
 
-.. figure:: interface_definition.png
-    :scale: 60%
+请先参考编辑模型的操作，如 :ref:`sec_edit` 。
 
-    模型接口定义
-
-.. figure:: scheduled_tasks.png
-    :scale: 60%
-
-    定时任务定义
-
-.. figure:: external_resources.png
-    :scale: 60%
-
-    外部资源定义
-
-.. figure:: code_generation.png
-    :scale: 60%
-
-    代码模板生成
-
-.. figure:: code_template.png
-    :scale: 60%
-
-    调用编辑器填写代码模板
-
-.. figure:: mastersim_table_connection.png
-    :scale: 60%
-
-    在MasterSim中进行接口连接
+若要全新创建模型，请先备份并复制示例模型的全局接口头文件与模型目录结构，编辑全局接口头文件中的接口数据类型定义；
+然后，选择工作路径到工具包中的model目录，通过界面中的相应区域，填写模型头文件中的信息，生成代码模板，其他操作同编辑已有模型。

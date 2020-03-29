@@ -1,4 +1,119 @@
+
+.. _sec_edit:
+
 打开已有的模型头文件
 ====================
 
-通过界面中的相应区域，修改从模型头文件中载入的信息，其他操作同新创建的模型。
+通过界面中的相应区域，修改从模型头文件中载入的信息。
+
+#. ，如 :numref:`fig_g_1` 。
+
+.. _fig_g_1:
+.. figure:: 1.png
+    :scale: 50%
+
+    设置工作路径
+
+#. ，如 :numref:`fig_g_2` 。
+
+.. _fig_g_2:
+.. figure:: 2.png
+    :scale: 50%
+
+    打开已有模型   
+
+#. ，如 :numref:`fig_g_3` 。
+
+.. _fig_g_3:
+.. figure:: 3.png
+    :scale: 50%
+
+    加载接口协议文件
+
+#. ，如 :numref:`fig_g_4` 。
+
+.. _fig_g_4:
+.. figure:: 4.png
+    :scale: 50%
+
+    拖动结构体定义到输入
+
+#. ，如 :numref:`fig_g_5` 。
+
+.. _fig_g_5:
+.. figure:: 5.png
+    :scale: 50%
+
+    拖动结构体定义到输出 
+
+#. ，如 :numref:`fig_g_6` 。
+
+.. _fig_g_6:
+.. figure:: 6.png
+    :scale: 50%
+
+    定义计划任务   
+
+#. ，如 :numref:`fig_g_7` 。
+
+.. _fig_g_7:
+.. figure:: 7.png
+    :scale: 50%
+
+    定义外部资源
+
+#. ，如 :numref:`fig_g_8` 。
+
+.. _fig_g_8:
+.. figure:: 8.png
+    :scale: 50%
+
+    生成代码   
+
+#. ，如 :numref:`fig_g_9` 。
+
+.. _fig_g_9:
+.. figure:: 9.png
+    :scale: 50%
+
+    编辑代码
+
+#. ，如 :numref:`fig_g_10` 。
+
+.. _fig_g_10:
+.. figure:: 10.png
+    :scale: 50%
+
+    选择要构建的模型   
+
+#. ，如 :numref:`fig_g_11` 。
+
+.. _fig_g_11:
+.. figure:: 11.png
+    :scale: 50%
+
+    开始创建，确认编译环境测试通过
+
+#. ，如 :numref:`fig_g_12` 。
+
+.. _fig_g_12:
+.. figure:: 12.png
+    :scale: 50%
+
+    完成创建，确认生成编译工程
+
+#. ，如 :numref:`fig_g_13` 。
+
+.. _fig_g_13:
+.. figure:: 13.png
+    :scale: 50%
+
+    开始构建，确认授权通过
+
+#. ，如 :numref:`fig_g_14` 。
+
+.. _fig_g_14:
+.. figure:: 14.png
+    :scale: 50%
+
+    完成构建，确认测试通过
