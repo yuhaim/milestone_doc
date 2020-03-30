@@ -1,13 +1,15 @@
 被控对象模型
 -------------
 
-为实现 :eq:`eq_plant` 中描述的被控对象模型并与控制器数学模型相连接，分解后的被控对象原理框图如 :numref:`fig_sys_plant` 。
+为实现 :eq:`eq_plant` 中描述的被控对象模型并与控制器数学模型相连接，分解后的被控对象原理框图如 :numref:`fig_sys_plant` 。[#f1]_
 
 .. _fig_sys_plant:
 .. figure:: sys_plant.png
     :scale: 75%
 
     被控对象原理框图
+
+模型头文件plant.h中的内容：
 
 .. code-block:: C
     :linenos:
@@ -27,16 +29,16 @@
     #define FMI_MODEL_AUTHOR "MA Yuhai"
     #define FMI_MODEL_NAME "plant"
     #define FMI_MODEL_DISCRIPTION "a plant model"
-    #define FMI_PORT_POSTFIX ""
+    #define FMI_PORT_POSTFIX ""    /* 指定端口后缀，避免在某些仿真工具中的命名冲突 */
 
     // resource file definition if any
-    #define FMI_RESOURCE_ITEM 0
+    #define FMI_RESOURCE_ITEM 0    /* 外部资源文件数量为零，列表被忽略 */
     #if FMI_RESOURCE_ITEM>0 && defined EN_RES_ACCESS
     const char *resource_file_list[FMI_RESOURCE_ITEM] = {
         };
     #endif
         
-    #define FMI_TASK_ITEM 0
+    #define FMI_TASK_ITEM 0    /* 定时任务数量为零，触发函数被忽略 */
     // task definition if any in the unit of [ms]
     void task_30ms_start_0ms(void);
 
@@ -58,6 +60,7 @@
 
     #endif // PLANT_H__
 
+模型源文件plant.cpp中的内容：
 
 .. code-block:: C
     :linenos:
@@ -97,7 +100,7 @@
 
         F = p->st_data_controller_to_plant.F;
 
-        v += F / m * p->fmi_time_step;
+        v += F / m * p->fmi_time_step;    /* 当前时间、步长会由仿真工具更新 */
         x += v * p->fmi_time_step;
 
         p->st_data_plant_to_controller.x = x;
@@ -119,3 +122,7 @@
 
         free(p);
     }
+
+.. rubric:: Footnotes
+
+.. [#f1] 可参考示例模型plant_1，查看构建后的代码及接口是否添加了期望的后缀。

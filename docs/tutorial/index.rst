@@ -6,123 +6,123 @@
 
 在了解仿真模型实现的细节之前，可以使用工具包自带的测试用例验证环境部署的正确性，我们先在GUI中快速完成这些操作。
 
-#. 运行MasterSimulatorUI.exe，启动MasterSim主界面，如 :numref:`fig_t_0` 。
+* 运行MasterSimulatorUI.exe，启动MasterSim主界面，如 :numref:`fig_t_0` 。
 
 .. _fig_t_0:
 .. figure:: 0.png
-    :scale: 50%
+    :scale: 55%
 
     MasterSim主界面
 
-#. ，如 :numref:`fig_t_1` 。
+* 点击“*Build model*”，打开Milestone工具主界面，如 :numref:`fig_t_1` 。
 
 .. _fig_t_1:
 .. figure:: 1.png
-    :scale: 50%
+    :scale: 55%
 
     Milestone主界面
 
-#. ，如 :numref:`fig_t_2` 。
+* 此处我们直接运行示例模型，切换至“*代码生成*”标签页，点击“*创建工程*”，如 :numref:`fig_t_2` 。
 
 .. _fig_t_2:
 .. figure:: 2.png
-    :scale: 50%
+    :scale: 55%
 
     创建工程   
 
-#. ，如 :numref:`fig_t_3` 。
+* 弹出模型选择对话框，在模型列表中选择controller和plant模型，如 :numref:`fig_t_3` 。
 
 .. _fig_t_3:
 .. figure:: 3.png
-    :scale: 50%
+    :scale: 55%
 
     选择模型
 
-#. ，如 :numref:`fig_t_4` 。
+* 点击“*创建工程*”，完成编译工程的创建，如 :numref:`fig_t_4` 。
 
 .. _fig_t_4:
 .. figure:: 4.png
-    :scale: 50%
+    :scale: 55%
 
     完成编译工程创建      
 
-#. ，如 :numref:`fig_t_5` 。
+* 点击“*构建模型*”，调用系统的编译环境，如 :numref:`fig_t_5` 。
 
 .. _fig_t_5:
 .. figure:: 5.png
-    :scale: 50%
+    :scale: 55%
 
     构建模型
 
-#. ，如 :numref:`fig_t_6` 。
+* 在工具包的export目录中，查看生成的FMU文件，如 :numref:`fig_t_6` 。
 
 .. _fig_t_6:
 .. figure:: 6.png
-    :scale: 50%
+    :scale: 55%
 
     查看导出的FMU   
 
-#. ，如 :numref:`fig_t_7` 。
+* 在MasterSim主界面中打开自带的测试工程，如 :numref:`fig_t_7` 。
 
 .. _fig_t_7:
 .. figure:: 7.png
-    :scale: 50%
+    :scale: 55%
 
     打开MasterSim测试工程
 
-#. ，如 :numref:`fig_t_8` 。
+* 测试工程在export/mastersim路径下，如 :numref:`fig_t_8` 。
 
 .. _fig_t_8:
 .. figure:: 8.png
-    :scale: 50%
+    :scale: 55%
 
     测试工程默认路径   
 
-#. ，如 :numref:`fig_t_9` 。
+* 我们这里重新生成了其中的FMU模型，但他们的连接保持测试工程中的关系不变，如 :numref:`fig_t_9` 。
 
 .. _fig_t_9:
 .. figure:: 9.png
-    :scale: 50%
+    :scale: 55%
 
     MasterSim中的模型连接
 
-#. ，如 :numref:`fig_t_10` 。
+* MasterSim左侧的功能选择按钮可以启动Milestone，测试FMU中的信息，启动后处理程序，以图或表格的方式配置模型间的连接，以及配置仿真求解器参数等，请参考其 `官方文档 <(https://bauklimatik-dresden.de/mastersim/html_en/MasterSim_manual.html>`_ 获得更详细的信息。此处可直接使用示例中配置好的参数，点击“*开始仿真*”按钮，如 :numref:`fig_t_10` 。
 
 .. _fig_t_10:
 .. figure:: 10.png
-    :scale: 50%
+    :scale: 55%
 
     MasterSim中的仿真配置   
 
-#. ，如 :numref:`fig_t_11` 。
+* 观察仿真器的监控信息，以及打印模型中输出的信息，如 :numref:`fig_t_11` 。
 
 .. _fig_t_11:
 .. figure:: 11.png
-    :scale: 50%
+    :scale: 55%
 
     MasterSim仿真过程监控
 
-#. ，如 :numref:`fig_t_12` 。
+* 生成的结果数据文件存放在results路径下，如 :numref:`fig_t_12` 。
 
 .. _fig_t_12:
 .. figure:: 12.png
-    :scale: 50%
+    :scale: 55%
 
     MasterSim仿真结果路径      
 
-#. ，如 :numref:`fig_t_13` 。
+* 识别该csv文件的分隔符，用Excel等工具格式化查看，如 :numref:`fig_t_13` 。
 
 .. _fig_t_13:
 .. figure:: 13.png
-    :scale: 50%
+    :scale: 55%
 
     Excel中查看结果csv数据文件
 
-#. ，如 :numref:`fig_t_14` 。
+* 绘制仿真结果，验证模型的正确性，如 :numref:`fig_t_14` 。
 
 .. _fig_t_14:
 .. figure:: 14.png
-    :scale: 50%
+    :scale: 55%
 
     系统时域响应曲线   
 
@@ -155,7 +155,7 @@
 
 .. _fig_sys_all:
 .. figure:: sys_all.png
-    :scale: 50%
+    :scale: 55%
 
     控制系统框图
 
@@ -182,7 +182,7 @@
 
 .. _fig_sys_res:
 .. figure:: sys_res.png
-    :scale: 50%
+    :scale: 55%
 
     预期的系统响应
 
@@ -190,15 +190,7 @@
 
 .. _fig_sys_sep:
 .. figure:: sys_sep.png
-    :scale: 50%
+    :scale: 55%
 
     系统的接口关系
 
-代码结构剖析
-============
-
-.. toctree::
-    
-    interface
-    controller
-    plant

@@ -1,19 +1,19 @@
 软件授权
 ========
-提供运行系统的MAC地址，获取授权文件
+提供运行系统的MAC地址，联系 ``WeChat:latitude_vocal`` 获取授权文件。
 
 Windows
 --------
-ipconfig /all
+Windows下查看本机MAC地址的方式：查看本地网络连接中的适配器属性，或者在命令提示符窗口（组合键WIN+R，键入cmd）中运行 ``ipconfig /all`` 。
 
 Linux
 ------
-ifconfig
+在X Window配置界面中查看网络适配器属性，或在控制台窗口中运行 ``ifconfig`` 。
 
 软件安装
 ========
-工具包解压缩得到主目录结构
-将授权文件放置在license目录中
+工具包解压缩得到主目录结构。
+将授权文件放置在license目录中。
 
 目录结构
 ========
@@ -32,67 +32,3 @@ CMakeLists.txt   CMake工程文件模板，界面程序运行时请勿修改
 SFcnLists.m      S-Fcuntion构建脚本文件，界面程序运行时请勿修改
 Readme.txt       简要的使用说明文件
 ================ ============================================
-
-.. line-block
-
-.. parsed-literal::
-    MASTERSIMULATOR WITH MILESTONE 1.0   <<-------- MasterSim根目录
-    │  MasterSimulator.exe      <<-------- MasterSim 求解器
-    │  MasterSimulatorUI.exe    <<-------- MasterSim 主界面
-    │  ...
-    │  
-    ├─Milestone             <<-------- Milestone根目录
-    │  │  CMakeLists.txt        <<-------- Milestone FMU构建脚本
-    │  │  Readme.txt            <<-------- Milestone 快速使用指南
-    │  │  SFcnLists.m           <<-------- Milestone S函数构建脚本
-    │  │  
-    │  ├─bin
-    │  │      milestone         <<-------- Milestone 核心程序 (Linux)
-    │  │      milestone.exe     <<-------- Milestone 核心程序 (Windows)
-    │  │      ...
-    │  │      
-    │  ├─export						
-    │  │  │  fmu_controller.fmu <<-------- 导出的模型FMU文件
-    │  │  │  fmu_plant.fmu
-    │  │  │  fmu_plant_1.fmu
-    │  │  │  
-    │  │  └─mastersim           <<-------- MasterSim 测试工程目录
-    │  │      │  sim.bm
-    │  │      │  sim.msim
-    │  │      │  
-    │  │      └─sim
-    │  │          └─results
-    │  │                  values.csv    <<-------- MasterSim 测试数据
-    │  │                  
-    │  ├─include                <<-------- FMI标准头文件、模板文件
-    │  │      
-    │  ├─license
-    │  │      00-0C-29-19-A4-33.lic     <<-------- 单机授权文件
-    │  │      00-0C-29-7E-DB-12.lic
-    │  │      ...
-    │  │      
-    │  └─model                  <<-------- 模型目录
-    │      │  interface.h               <<-------- 全局接口头文件
-    │      │  
-    │      ├─controller                 <<-------- 示例模型：控制器
-    │      │  ├─resources               <<-------- 示例模型数据文件
-    │      │  │      init_config.txt
-    │      │  │      init_data.dat
-    │      │  │      
-    │      │  └─sources
-    │      │          controller.cpp    <<-------- 示例模型代码文件
-    │      │          controller.h      <<-------- 示例模型头文件
-    │      │          
-    │      ├─plant                      <<-------- 示例模型：被控对象
-    │      │  └─sources
-    │      │          plant.cpp
-    │      │          plant.h
-    │      │          
-    │      └─plant_1                    <<-------- 示例模型：被控对象1
-    │          └─sources
-    │                  plant_1.cpp
-    │                  plant_1.h
-    │                  
-    ├─...
-
-

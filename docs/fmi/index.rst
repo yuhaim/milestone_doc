@@ -1,9 +1,9 @@
+.. _sec_fmi:
+
 FMI接口及其实现
 **********************
 
-为避免污染程序目录结构，支持shadow构建，运行cmake，生成编译工程。
-程序将完成结构多层次递归展开，fmu结构代码生成，xml描述文件生成。
-程序完成fmu链接库构建，打包及测试流程。 如 :numref:`fig_flow` 。
+本工具在FMI接口代码的基础上，简化了多数固有的流程性代码以及繁琐的接口定义操作，并添加了一些实用功能，代码模板的运行流程如 :numref:`fig_flow` 。代码的实现请阅读 :ref:`sec_code` 相关注释。
 
 .. _fig_flow:
 .. figure:: milestone_flow.png
@@ -11,3 +11,13 @@ FMI接口及其实现
 
     模型代码模板运行流程
 
+.. _sec_code:
+
+代码结构剖析
+============
+
+.. toctree::
+    
+    interface
+    controller
+    plant

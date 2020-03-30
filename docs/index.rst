@@ -17,6 +17,7 @@ Milestone文档
    cli/index
    fmi/index
    sfcn/index
+   detail/index
 
 .. 工具和索引
    ##########

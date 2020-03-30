@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 生成 layer.svg Page-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="4.18913in" height="2.49213in"
+		viewBox="0 0 301.617 179.433" xml:space="preserve" color-interpolation-filters="sRGB" class="st13">
+	<v:documentProperties v:langID="2052" v:metric="true" v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud v:nameU="msvSubprocessMaster" v:prompt="" v:val="VT4(Main process)"/>
+			<v:ud v:nameU="msvNoAutoConnect" v:val="VT0(0):26"/>
+			<v:ud v:nameU="msvConvertTheme"/>
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {visibility:visible}
+		.st2 {fill:#cdcdcd;fill-opacity:0.5;stroke:#cdcdcd;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5}
+		.st3 {fill:url(#grad0-6);stroke:#404040;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
+		.st4 {fill:#000000;font-family:宋体;font-size:0.874992em}
+		.st5 {fill:#000000;font-family:Times New Roman;font-size:0.833336em}
+		.st6 {stroke:#cdcdcd;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5;stroke-width:1.5}
+		.st7 {stroke:#404040;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+		.st8 {font-family:宋体;font-size:1em}
+		.st9 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
+		.st10 {fill:#000000;font-family:宋体;font-size:1.00001em}
+		.st11 {marker-end:url(#mrkr5-63);stroke:#404040;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st12 {fill:#404040;fill-opacity:1;stroke:#404040;stroke-opacity:1;stroke-width:0.22935779816514}
+		.st13 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Patterns_And_Gradients">
+		<linearGradient id="grad0-6" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(270 0.5 0.5)">
+			<stop offset="0" stop-color="#f0f0f0" stop-opacity="1"/>
+			<stop offset="1" stop-color="#ffffff" stop-opacity="1"/>
+		</linearGradient>
+	</defs>
+	<defs id="Markers">
+		<g id="lend5">
+			<path d="M 2 1 L 0 0 L 1.98117 -0.993387 C 1.67173 -0.364515 1.67301 0.372641 1.98465 1.00043 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr5-63" class="st12" v:arrowType="5" v:arrowSize="2" v:setback="7.63" refX="-7.63" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-4.36,-4.36) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<v:userDefs>
+			<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+			<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+			<v:ud v:nameU="msvThemeOrder" v:val="VT0(0):26"/>
+		</v:userDefs>
+		<title>页-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="4.25197"
+				v:shadowOffsetY="-4.25197"/>
+		<v:layer v:name="连接线" v:index="0"/>
+		<g id="shape2-1" v:mID="2" v:groupContext="shape" transform="translate(114.478,-83.6221)">
+			<title>矩形</title>
+			<desc>仿真模型接口适配开发系统</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+				<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="68.2087" cy="168.095" width="136.42" height="22.6772"/>
+			<g id="shadow2-2" v:groupContext="shadow" v:shadowOffsetX="1.44" v:shadowOffsetY="-1.44" v:shadowType="1"
+					transform="matrix(1,0,0,1,1.44,1.44)" class="st1">
+				<rect x="0" y="156.756" width="136.417" height="22.6772" class="st2"/>
+			</g>
+			<rect x="0" y="156.756" width="136.417" height="22.6772" class="st3"/>
+			<text x="5.21" y="171.51" class="st4" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>仿真模型接口适配开发系统</text>		</g>
+		<g id="shape3-8" v:mID="3" v:groupContext="shape" transform="translate(114.656,-24.0945)">
+			<title>矩形.3</title>
+			<desc>FMI</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+				<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="29.2323" cy="168.095" width="58.47" height="22.6772"/>
+			<g id="shadow3-9" v:groupContext="shadow" v:shadowOffsetX="1.44" v:shadowOffsetY="-1.44" v:shadowType="1"
+					transform="matrix(1,0,0,1,1.44,1.44)" class="st1">
+				<rect x="0" y="156.756" width="58.4646" height="22.6772" class="st2"/>
+			</g>
+			<rect x="0" y="156.756" width="58.4646" height="22.6772" class="st3"/>
+			<text x="20.34" y="171.09" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>FMI</text>		</g>
+		<g id="shape4-14" v:mID="4" v:groupContext="shape" transform="translate(192.431,-24.0945)">
+			<title>矩形.4</title>
+			<desc>S-Function</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+				<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="29.2323" cy="168.095" width="58.47" height="22.6772"/>
+			<g id="shadow4-15" v:groupContext="shadow" v:shadowOffsetX="1.44" v:shadowOffsetY="-1.44" v:shadowType="1"
+					transform="matrix(1,0,0,1,1.44,1.44)" class="st1">
+				<rect x="0" y="156.756" width="58.4646" height="22.6772" class="st2"/>
+			</g>
+			<rect x="0" y="156.756" width="58.4646" height="22.6772" class="st3"/>
+			<text x="7.01" y="171.09" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>S-Function</text>		</g>
+		<g id="shape6-20" v:mID="6" v:groupContext="shape" transform="translate(18.75,-77.749)">
+			<title>工作表.6</title>
+			<v:userDefs>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+				<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+			</v:userDefs>
+			<g id="shadow6-21" v:groupContext="shadow" v:shadowOffsetX="1.44" v:shadowOffsetY="-1.44" v:shadowType="1"
+					transform="matrix(1,0,0,1,1.44,1.44)" class="st1">
+				<path d="M0 179.43 L262.68 179.43" class="st6"/>
+			</g>
+			<path d="M0 179.43 L262.68 179.43" class="st7"/>
+		</g>
+		<g id="shape7-27" v:mID="7" v:groupContext="shape" transform="translate(117.49,-138.631)">
+			<title>矩形.7</title>
+			<desc>C/C++代码描述的仿真模型</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+				<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="65.1968" cy="168.095" width="130.4" height="22.6772"/>
+			<g id="shadow7-28" v:groupContext="shadow" v:shadowOffsetX="1.44" v:shadowOffsetY="-1.44" v:shadowType="1"
+					transform="matrix(1,0,0,1,1.44,1.44)" class="st1">
+				<rect x="0" y="156.756" width="130.394" height="22.6772" class="st2"/>
+			</g>
+			<rect x="0" y="156.756" width="130.394" height="22.6772" class="st3"/>
+			<text x="6.5" y="171.39" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>C/C++<tspan class="st8">代码描述的仿真模型</tspan></text>		</g>
+		<g id="shape8-34" v:mID="8" v:groupContext="shape" transform="translate(18.75,-138.631)">
+			<title>工作表.8</title>
+			<desc>用户应用层</desc>
+			<v:userDefs>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+				<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="50" cy="173.433" width="100" height="12"/>
+			<rect x="0" y="167.433" width="100" height="12" class="st9"/>
+			<text x="4" y="177.38" class="st10" v:langID="2052"><v:paragraph/><v:tabList/>用户应用层</text>		</g>
+		<g id="shape10-37" v:mID="10" v:groupContext="shape" transform="translate(18.75,-83.6221)">
+			<title>工作表.10</title>
+			<desc>中间层</desc>
+			<v:userDefs>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+				<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="50" cy="173.433" width="100" height="12"/>
+			<rect x="0" y="167.433" width="100" height="12" class="st9"/>
+			<text x="4" y="177.38" class="st10" v:langID="2052"><v:paragraph/><v:tabList/>中间层</text>		</g>
+		<g id="shape11-40" v:mID="11" v:groupContext="shape" transform="translate(18.75,-24.0945)">
+			<title>工作表.11</title>
+			<desc>标准接口层</desc>
+			<v:userDefs>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+				<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="50" cy="173.433" width="100" height="12"/>
+			<rect x="0" y="167.433" width="100" height="12" class="st9"/>
+			<text x="4" y="177.38" class="st10" v:langID="2052"><v:paragraph/><v:tabList/>标准接口层</text>		</g>
+		<g id="shape12-43" v:mID="12" v:groupContext="shape" transform="translate(18.75,-132.001)">
+			<title>工作表.12</title>
+			<v:userDefs>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+				<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+			</v:userDefs>
+			<g id="shadow12-44" v:groupContext="shadow" v:shadowOffsetX="1.44" v:shadowOffsetY="-1.44" v:shadowType="1"
+					transform="matrix(1,0,0,1,1.44,1.44)" class="st1">
+				<path d="M0 179.43 L262.68 179.43" class="st6"/>
+			</g>
+			<path d="M0 179.43 L262.68 179.43" class="st7"/>
+		</g>
+		<g id="shape13-50" v:mID="13" v:groupContext="shape" transform="translate(18.75,-20.19)">
+			<title>工作表.13</title>
+			<v:userDefs>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+				<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+			</v:userDefs>
+			<g id="shadow13-51" v:groupContext="shadow" v:shadowOffsetX="1.44" v:shadowOffsetY="-1.44" v:shadowType="1"
+					transform="matrix(1,0,0,1,1.44,1.44)" class="st1">
+				<path d="M0 179.43 L262.68 179.43" class="st6"/>
+			</g>
+			<path d="M0 179.43 L262.68 179.43" class="st7"/>
+		</g>
+		<g id="shape15-57" v:mID="15" v:groupContext="shape" v:layerMember="0" transform="translate(175.6,-138.631)">
+			<title>动态连接线</title>
+			<v:userDefs>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+				<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+			</v:userDefs>
+			<path d="M7.09 179.43 L7.09 206.04" class="st11"/>
+		</g>
+		<g id="shape16-64" v:mID="16" v:groupContext="shape" v:layerMember="0" transform="translate(182.687,-83.6221)">
+			<title>动态连接线.16</title>
+			<v:userDefs>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+				<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+			</v:userDefs>
+			<path d="M0 179.43 L0 197.86 L-38.8 197.86 L-38.8 210.56" class="st11"/>
+		</g>
+		<g id="shape17-70" v:mID="17" v:groupContext="shape" v:layerMember="0" transform="translate(182.687,-83.6221)">
+			<title>动态连接线.17</title>
+			<v:userDefs>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+				<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+			</v:userDefs>
+			<path d="M0 179.43 L0 197.86 L38.98 197.86 L38.98 210.56" class="st11"/>
+		</g>
+	</g>
+</svg>
