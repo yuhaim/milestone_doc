@@ -11,6 +11,10 @@ Windows
 Linux
 ^^^^^
 推荐使用gcc/g++或clang/clang++编译器，推荐在系统的包管理器中安装。
+在Linux下使用图形界面需要配置Qt运行环境，若系统的Qt环境不满足要求，可单独安装Qt开发环境，并在运行GUI程序前设置环境变量：
+export LD_LIBRARY_PATH=/home/user/Qt5.12.5/5.12.5/gcc_64/lib/ （*应替换为用户本地的安装路径*）
+然后，执行GUI程序
+./MasterSimulatorUI
 
 CMake
 ------
@@ -21,7 +25,7 @@ Linux下，需要授予bin目录下程序执行权限（chmod 777 ./bin/\*）。
 
 路径配置
 --------
-在MasterSim中选择当前系统中安装的CMake路径以及milestone可执行文件的路径，如 :numref:`fig_language` 。
+在MasterSim中选择当前系统中安装的CMake路径以及milestone可执行文件的路径，如 :numref:`fig_setting` 。
 
 .. _fig_setting:
 .. figure:: setting.png
@@ -31,7 +35,7 @@ Linux下，需要授予bin目录下程序执行权限（chmod 777 ./bin/\*）。
 
 切换界面语言
 ------------
-在MasterSim中切换Milestone的界面语言，重新启动后生效，如 :numref:`fig_setting` 。
+在MasterSim中切换Milestone的界面语言，重新启动后生效，如 :numref:`fig_language` 。
 
 .. _fig_language:
 .. figure:: language.png

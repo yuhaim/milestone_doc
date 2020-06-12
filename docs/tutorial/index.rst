@@ -86,7 +86,7 @@
 
     MasterSim中的模型连接
 
-* MasterSim左侧的功能选择按钮可以启动Milestone，测试FMU中的信息，启动后处理程序，以图或表格的方式配置模型间的连接，以及配置仿真求解器参数等，请参考其 `官方文档 <(https://bauklimatik-dresden.de/mastersim/html_en/MasterSim_manual.html>`_ 获得更详细的信息。此处可直接使用示例中配置好的参数，点击“*开始仿真*”按钮，如 :numref:`fig_t_10` 。
+* MasterSim左侧的功能选择按钮可以启动Milestone，测试FMU中的信息，启动后处理程序，以图或表格的方式配置模型间的连接，以及配置仿真求解器参数等，请参考其 `官方文档 <https://bauklimatik-dresden.de/mastersim/html_en/MasterSim_manual.html>`_ 获得更详细的信息。此处可直接使用示例中配置好的参数，点击“*开始仿真*”按钮，如 :numref:`fig_t_10` 。
 
 .. _fig_t_10:
 .. figure:: 10.png
